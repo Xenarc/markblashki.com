@@ -1,0 +1,192 @@
+/* START CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: 'Play', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* END CSS RESET */
+
+/* START GENERAL STYLES */
+.heading, .subheading, .subtitle, .text{
+	color: #4D4D4D;
+	padding: 0.25em 0;
+}
+
+.heading{
+	font-size: 3em;
+}
+
+.subheading{
+	font-size: 2em;
+}
+
+.subtitle{
+	font-size: 1.5em;
+	font-style: italic;
+}
+
+.text{
+	font-size: 1em;
+	padding: 0;
+	
+}
+
+/* 
+	Transitions:
+transition: all 0.3s cubic-bezier(.25,.8,.25,1); 
+*/
+
+.shadow1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.shadow2 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.shadow3 {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.shadow4 {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.shadow5 {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.button{
+	border: 2px solid #616161;
+	border-radius: calc(2em + 1%);
+	padding: 0.5em 2em;
+	width: fit-content;
+	height: 2em;
+	background-color: #00000000;
+	color: #616161;
+}
+
+.button img{
+	height: 2.2em;
+	width: auto;
+	float: right;
+}
+
+.button h3{
+	float: left;
+	width: calc(80% - 0.9em);
+	white-space: nowrap;
+	padding-right: 1em;
+	font-size: 1.8em;
+}
+
+/* END GENERAL STYLES */
+
+/* Start Nav Bar */
+
+.navBar{
+	height: 2.5em;
+	position: fixed;
+	background-color: #EFEFEF;
+	width: 100%;
+	padding: 0.5%;
+}
+
+.logo{
+	float: left;
+	height: 100%;
+}
+
+.logo img{
+	height: 100%;
+}
+
+.nav{
+	float: left;
+	width: 30%;
+	height: 2em;
+	height: 100%;
+}
+
+.nav li{
+	float: left;
+	width: 33.3333%;
+	text-align: center;
+	height: 100%;
+	padding-top: 0.25em;
+}
+
+.nav a{
+	color: #616161;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+/* End Nav Bar */
+
+/* Start Hero Section */
+
+.heroContainer{
+	width: 70%;
+	max-width: 1100px;
+	padding: 0 10%;
+	padding-top: 10%;
+	height: 50%;
+}
+
+.heroContainer>img{
+	width: 80%;
+}
+
+.sloganContainer{
+	width: 75%;
+	float: left;
+}
+
+.buttonContainer{
+	float: left;
+	width: 25%;
+	margin-top: 1em;
+}
+
+/* End Hero Section */
+
