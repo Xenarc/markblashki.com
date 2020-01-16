@@ -46,6 +46,11 @@ table {
 /* END CSS RESET */
 
 /* START GENERAL STYLES */
+
+.fadeAsScroll{
+	opacity: 0;
+}
+
 .heading, .subheading, .subtitle, .text{
 	color: #4D4D4D;
 	padding: 0.25em 0;
@@ -76,7 +81,6 @@ table {
 
 .text{
 	font-size: 1.3em;
-	/* padding: 0; */
 }
 
 .shadow1 {
@@ -136,11 +140,27 @@ table {
 /* Start Nav Bar */
 
 .navBar{
-	height: 2.5em;
 	position: fixed;
-	background-color: #EFEFEF;
+	height: 2.5em;
 	width: 100%;
 	padding: 0.5%;
+	background-color: #EFEFEF;
+	z-index: 150;
+}
+
+.hamburger{
+	display: none;
+	float: right;
+	width: 20%;
+}
+
+.hamburger img{
+	cursor: pointer;
+	width: 3em;
+	height: 2.4227em;
+	display: block;
+	margin: auto;
+	margin-top: 1.125em;
 }
 
 .logo{
@@ -155,7 +175,6 @@ table {
 .nav{
 	float: left;
 	width: 32em;
-	height: 2em;
 	height: 100%;
 }
 
@@ -180,7 +199,7 @@ table {
 
 .rightTriangle{
 	position: absolute;
-	top: 4em;
+	top: 100px;
 	right: 0;
 	height: 120vh;
 	width: 100%;
@@ -199,6 +218,12 @@ table {
 /* End Right Triangle */
 
 /* Start Hero Section */
+
+.hero:after{
+	clear: both;
+	content: "";
+	display: block;
+}
 
 .heroContainer{
 	width: 80%;
@@ -242,6 +267,14 @@ table {
 	margin-left: 10%;
 }
 
+.consulting ul{
+	list-style: "- ";
+	margin-left: 1em;
+}
+
+.consulting .button{
+	margin-top: 1em;
+}
 
 /* End Consulting Section */
 
@@ -263,7 +296,11 @@ table {
 
 @media only screen and (max-width: 855px) {
 	/* START GENERAL STYLES */
-
+	.subheading{
+		margin-left: 0;
+		margin-bottom: 1em;
+		margin-bottom: 0.5em;
+	}
 	/* END GENERAL STYLES */
 
 	/* Start Nav Bar */
@@ -302,13 +339,14 @@ table {
 	}
 	
 	.logo{
-		width: 100%;
+		width: 60%;
 		height: 5em;
 		margin: auto;
 		background: url(../img/fullLogo.png);
 		background-size: contain;
-		background-position: center;
+		background-position: left;
 		background-repeat: no-repeat;
+		margin: 0 10%;
 		
 		/* Toggle */
 		/* height: 2em; */
@@ -316,9 +354,12 @@ table {
 		/* background: none; */
 	}
 	
+	.hamburger{
+		display: block;
+	}
+	
 	.heroContainer>img{
 		display: none;
-		
 	}
 	
 	.logo img{
@@ -329,15 +370,26 @@ table {
 	.navBar{
 		height: fit-content;
 	}
+	
 	.nav li{
 		width: 100%;
-		display: none;	
+		display: none;
 	}
+	
 	.nav a{
-		height: 3em;
+		/* height: 3em; */
+		padding: 1em 0;
+		width: 100%;
+		display: block;
 	}
+	
 	.heroContainer{
-		margin-top: 15%;
+		margin-top: 5em;
+	}
+	
+	.consultingContainer{
+		width: 90%;
+		margin: auto;
 	}
 }
 

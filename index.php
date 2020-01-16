@@ -4,6 +4,8 @@
 	<meta charset="utf-8">
 	<meta content="width=device-width, initial-scale=1" name="viewport" />
 	<title>Mark Blashki</title>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
+	<script src="js/index.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/indexStyle.css">
 	<!--[if IE]>
@@ -21,6 +23,9 @@
 		<div class="logo">
 			<img src="img/logo.png" alt="Mark Blashki Solutions Logo">
 		</div>
+		<div class="hamburger">
+			<img src="img/hamburgerBlue.png" alt="Hamburger Menu">
+		</div>
 		<nav class="nav">
 			<ul>
 				<li><a href="About">About</a></li>
@@ -28,6 +33,7 @@
 				<li><a href="Portfolio">Portfolio</a></li>
 			</ul>
 		</nav>
+		
 	</div>
 	<div class="rightTriangle"></div>
 	<div class="hero">
@@ -48,26 +54,26 @@
 		</div>
 	</div>
 	<div class="consulting">
-		<div class="consultingContainer">
+		<div class="consultingContainer fadeAsScroll">
 			<div class="subheading">
 				<span><img src="img/headingMarker.png" alt=""></span><h1 class="">Consulting</h1>
 			</div>
 			<p class="text">Delivering Quality Advice on Many Different Subjects to Boost Your Business' Performance.</p>
 			<ul>
 				<li>
-					<p class="text">- Integrating Technology with Business</p>
+					<p class="text fadeAsScroll">Integrating Technology with Business</p>
 				</li>
 				<li>
-					<p class="text">- Systems Migration</p>
+					<p class="text fadeAsScroll">Systems Migration</p>
 				</li>
 				<li>
-					<p class="text">- Technology Implementation</p>
+					<p class="text fadeAsScroll">Technology Implementation</p>
 				</li>
 				<li>
-					<p class="text">- Machine Learning</p>
+					<p class="text fadeAsScroll">Machine Learning</p>
 				</li>
 				<li>
-					<p class="text">- Systems Restructuring</p>
+					<p class="text fadeAsScroll">Systems Restructuring</p>
 				</li>
 			</ul>
 			<a href="Portfolio" class="contactButton button shadow1">
@@ -76,5 +82,8 @@
 			</a>
 		</div>
 	</div>
+	<br>
+	<br>
+	<br>
 </body>
 </html>
