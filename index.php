@@ -38,7 +38,7 @@
 	</div>
 	<div class="rightTriangle"></div>
 	<div class="hero">
-		<div class="heroContainer">
+		<div class="heroContainer container">
 			<img src="img/fullLogo.png" alt="Mark Blashki Solutions Logo">
 			<div class="heroText">
 				<div class="sloganContainer">
@@ -47,7 +47,7 @@
 				</div>
 				<div class="buttonContainer">
 					<a href="Portfolio" class="button shadow1">
-						<h3>See Services</h3>
+						<h3>Services</h3>
 						<img src="./img/buttonArrow.png" alt="">
 					</a>
 				</div>
@@ -55,26 +55,26 @@
 		</div>
 	</div>
 	<div class="consulting">
-		<div class="consultingContainer">
+		<div class="consultingContainer container">
 			<div class="heading fadeAsScroll">
 				<span><img src="img/headingMarker.png" alt=""></span><h1 class="">Consulting</h1>
 			</div>
-			<p class="text">Delivering Quality Advice on Many Different Subjects to Boost Your Business' Performance.</p>
+			<p class="text fadeAsScroll">Delivering quality advice on many different subjects to boost your business' performance.</p>
 			<ul>
 				<li>
-					<p class="text fadeAsScroll">Integrating Technology with Business</p>
+					<p class="text fadeAsScroll">Integrating technology with business</p>
 				</li>
 				<li>
-					<p class="text fadeAsScroll">Systems Migration</p>
+					<p class="text fadeAsScroll">Systems migration</p>
 				</li>
 				<li>
-					<p class="text fadeAsScroll">Technology Implementation</p>
+					<p class="text fadeAsScroll">Technology implementation</p>
 				</li>
 				<li>
-					<p class="text fadeAsScroll">Machine Learning</p>
+					<p class="text fadeAsScroll">Machine learning</p>
 				</li>
 				<li>
-					<p class="text fadeAsScroll">Systems Restructuring</p>
+					<p class="text fadeAsScroll">Systems restructuring</p>
 				</li>
 			</ul>
 			<a href="Portfolio" class="button shadow1">
@@ -84,9 +84,9 @@
 		</div>
 	</div>
 	<div class="softwareSolutions">
-		<div class="softwareSolutionsContainer">
+		<div class="softwareSolutionsContainer container">
 			<div class="heading darkTheme fadeAsScroll">
-				<span><img src="img/headingMarker.png" alt=""></span><h1 class="">Design. &nbsp Develop. &nbsp Deploy.</h1>
+				<span><img src="img/headingMarker.png" alt=""></span><h1 class="">Design. Develop. Deploy.</h1>
 			</div>
 			<p class="text darkTheme">Tailored solutions to suit your business. No matter the size.</p>
 			<ul>
@@ -120,7 +120,7 @@
 							<p class="text darkTheme">Modern designs</p>
 						</li>
 						<li>
-							<p class="text darkTheme">Range of components</p>
+							<p class="text darkTheme">Range of features</p>
 						</li>
 						<li>
 							<p class="text darkTheme">Back-end integration</p>
@@ -160,14 +160,14 @@
 		</div>
 	</div>
 	<div class="portfolio">
-		<div class="portfolioContainer">
+		<div class="portfolioContainer container">
 			<div class="heading fadeAsScroll">
 				<span><img src="img/headingMarker.png" alt=""></span><h1 class="">Portfolio</h1>
 			</div>
 			<div class="portfolioGallery">
 				<a class = "project shadow2 fadeAsScroll" href="http://markblashki.com/portfolio/academix/">
 					<img src="./img/AcademixHero.PNG" alt="Academix Website" class="shadow1">
-					<h3 class="subtitle">Adacemix</h3>
+					<h3 class="subtitle">Academix</h3>
 					<p class="text">An online learning platform for high school students</p>
 				</a>
 				<a class = "project shadow2 fadeAsScroll" href="http://markblashki.com/portfolio/milliesgarden/">
@@ -185,6 +185,24 @@
 					<h3 class="subtitle"></h3>
 					<p class="text"></p>
 				</a>
+			</div>
+		</div>
+	</div>
+	<div class="contact">
+		<div class="contactContainer container">
+		<p class="text darkTheme">For more details on how Mark Blashki Solutions can help your business or for general enquiries call or email at:</p>
+		<div class="contactDetailsContainer">
+			<div class="contactLine phone">
+				<img src="./img/phoneIconGray.png" alt="Phone Icon" class="icon">
+				<h3 class="subtitle darkTheme">Mobile: <a href="tel:0490 193 446">0490 193 446</a></h3>
+			</div>
+			<div class="contactLine email">
+				<img src="./img/mailIconGray.png" alt="Mail Icon" class="icon">
+				<h3 class="subtitle darkTheme">Email: <a href="mailto:markblashki1@gmail.com?Subject=Enquiry">markblashki1@gmail.com</a></h3>
+			</div>
+			<div class="contactLine socialMedia hidden">
+				<img src="./img/" alt="" class="icon">
+				<h3 class="subtitle darkTheme"></h3>
 			</div>
 		</div>
 	</div>

@@ -27,6 +27,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	min-width: 340px;
 }
 ol, ul {
 	list-style: none;
@@ -46,10 +47,6 @@ table {
 /* END CSS RESET */
 
 /* START GENERAL STYLES */
-
-.fadeAsScroll{
-	opacity: 0;
-}
 
 /* Light Styles */
 .heading, .subheading, .subtitle, .smallSubHeading, .text{
@@ -86,6 +83,13 @@ table {
 
 .text{
 	font-size: 1.3em;
+}
+
+.container{
+	padding: 5% 0;
+	width: 80%;
+	margin: auto;
+	clear: both;
 }
 
 /* Dark Styles */
@@ -232,7 +236,17 @@ table {
 
 /* Start Responsive Mobile Menu */
 
-@media only screen and (max-width: 570px) {
+@media only screen and (max-width: 580px) {
+	/* Not responsive menu but important for containers */
+	
+	.container{
+		width: 90%;
+	}
+	
+	.heading{
+		margin-left: 0;
+	}
+	
 	.nav{
 		background-color: #EFEFEF;
 		padding: 1%;
@@ -248,11 +262,6 @@ table {
 		background-position: left;
 		background-repeat: no-repeat;
 		margin: 0 10%;
-		
-		/* Toggle */
-		/* height: 2em; */
-		/* Toggle */
-		/* background: none; */
 	}
 	
 	.hamburger{
@@ -264,7 +273,6 @@ table {
 	}
 	
 	.logo img{
-		/* Toggle */
 		display: none;
 	}
 	
@@ -278,7 +286,6 @@ table {
 	}
 	
 	.nav a{
-		/* height: 3em; */
 		padding: 1em 0;
 		width: 100%;
 		display: block;

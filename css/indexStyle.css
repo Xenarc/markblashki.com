@@ -35,7 +35,6 @@ body{
 }
 
 .heroContainer{
-	width: 80%;
 	padding: 10% 0;
 	margin-left: 10%;
 	height: 50%;
@@ -72,6 +71,7 @@ body{
 
 .consultingContainer{
 	width: 45%;
+	margin: 0;
 	padding-left: 10%;
 }
 
@@ -97,20 +97,16 @@ body{
 }
 
 .softwareSolutionsContainer{
-	width: 80%;
-	margin: auto;
 }
 
-/* container */
 .softwareSolutionsContainer ul{
 	margin-top: 2em;
 	height: auto;
-	overflow: hidden;
+	overflow: auto;
 	width: 100%;
 	display: table;
 }
 
-/* inner */
 .softwareSolutionSections{
 	color: #D6D6D6;
 	width: 33.3333%;
@@ -177,17 +173,13 @@ body{
 /* Begin Porfolio */
 
 .portfolioContainer{
-	padding: 5% 0;
-	width: 80%;
-	margin: auto;
-	overflow: show;
 }
 
 .portfolioGallery{
 	width: 100%;
 	margin: auto;
 	max-width: 60em;
-	overflow: show;
+	overflow: visible;
 }
 
 .project{
@@ -209,8 +201,59 @@ body{
 	width: 100%;
 }
 
-
 /* End Portfolio */
+/* Begin Contact */
+
+
+.contact{
+	background-color: #325DC2;
+	clear: both;
+}
+
+.contact .text{
+	text-align: center;
+}
+
+.contactContainer{
+	overflow: auto;
+	padding: 2.5%;
+}
+
+.contactDetailsContainer{
+	padding-top: 2.5%;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.contactLine{
+	flex: 1 0 auto;
+	overflow: hidden;
+	display: flex;
+	padding: 0 1%;
+	align-items: center;
+	justify-content: center;
+}
+
+.contactLine h3{
+	font-size: 1.5em;
+	flex: 1 0 1;
+}
+
+.contactLine img{
+	height: 2.5em;
+	float: left;
+	flex: 0 0 0;
+}
+
+.contactLine a{
+	color: #D6D6D6;
+	white-space: nowrap;
+	display: inline-block;
+}
+
+/* End Contact */
 /* Begin Responsive Small-Screen */
 
 @media only screen and (max-width: 1110px) {
@@ -222,12 +265,9 @@ body{
 		width: 80%;
 	}
 	
-	.softwareSolutionsContainer{
-		width: 80%;
-	}
-	
-	.portfolioContainer{
-		width: 80%;
+	.project{
+		width: 35%;
+		margin: 5% 2.5%;
 	}
 }
 
@@ -235,16 +275,13 @@ body{
 /* Begin Responsive Mobile */
 
 @media only screen and (max-width: 855px) {
-	.rightTriangle{
-		display: none;
+	.heading{
+		font-size: 2em;
+		margin-bottom: 0.5em;
 	}
 	
-	.websites{
-		border: 0;
-		border-top: #B1B1B1 solid 1px;
-		border-bottom: #B1B1B1 solid 1px;
-		margin: 5% 0;
-		padding: 5% 0;
+	.rightTriangle{
+		display: none;
 	}
 
 	.sloganContainer{
@@ -268,17 +305,20 @@ body{
 	.softwareSolutionSections .button{
 		margin: 0 auto;
 	}
-	
-	.heading{
-		font-size: 2em;
-		margin-bottom: 0.5em;
-	}
-	
+		
 	.softwareSolutionSections{
 		width: 100%;
 		position: initial;
 		display: block;
-		
+		padding-bottom: 0;
+	}
+	
+	.websites{
+		border: 0;
+		border-top: #B1B1B1 solid 1px;
+		border-bottom: #B1B1B1 solid 1px;
+		margin: 5% 0;
+		padding: 5% 0;
 	}
 	
 	.softwareSolutionSections .button{
@@ -286,31 +326,31 @@ body{
 	}
 	
 	.project{
-		width: 100%;
+		width: 90%;
 		margin: 5% auto;
 		height: auto;
+	}
+	
+	.contactLine{
+		width: 100%;
 	}
 }
 
 /* End Responsive Mobile */
 /* Start Responsive Mobile Menu */
 
-@media only screen and (max-width: 570px) {
+@media only screen and (max-width: 580px) {
 	.heroContainer{
 		margin-top: 5em;
 	}
 	
-	.consultingContainer{
-		width: 90%;
-		margin: auto;
+	.contactLine h3{
+		font-size: 1em;
 	}
 	
-	.softwareSolutionsContainer{
-		width: 90%;
-	}
-	
-	.portfolioContainer{
-		width: 90%;
+	.contactLine img{
+		height: 1.5em;
+		margin-top: 0.125em;
 	}
 }
 

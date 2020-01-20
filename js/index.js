@@ -8,7 +8,7 @@ $(document).ready(function () {
 		$(this).addClass("buttonHovering shadow3");
 		
 		if ($(".buttonHovering img").css("filter") != "none") { // Fixes if the button is in darkTheme
-			$(this).removeClass("buttonHovering shadow3");
+			// $(this).removeClass("buttonHovering shadow3");
 		}
 		
 		$(".buttonHovering img").css("filter", "invert(1)");
@@ -40,13 +40,7 @@ $(window).scroll(function () {
 });
 
 function Scroll() {
-	$(".fadeAsScroll").each(function (i) {
-		var bottomOfObject = $(this).position().top + $(this).outerHeight();
-		var bottomOfWindow = $(window).scrollTop() + $(window).height();
-		if (bottomOfWindow > bottomOfObject) {
-			$(this).animate({ "opacity": "1" }, 500);
-		}
-	});
+	
 }
 
 function Resize(){
