@@ -1,200 +1,10 @@
-/* START CSS RESET */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-	font-family: 'Play', sans-serif;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-/* END CSS RESET */
+/* TEMP */
 
-/* START GENERAL STYLES */
-
-.fadeAsScroll{
-	opacity: 0;
+body{
+	height: 300vh;
 }
 
-.heading, .subheading, .subtitle, .text{
-	color: #4D4D4D;
-	padding: 0.25em 0;
-}
-
-.heading{
-	font-size: 2.25em;
-}
-
-.subheading{
-	margin-left: -1.35577em;
-	font-size: 2.25em;
-}
-
-.subheading span{
-	float: left;
-}
-
-.subheading img{
-	height: 1.5em;
-	margin-top: -0.25em;
-}
-
-.subtitle{
-	font-size: 1.65em;
-	font-style: italic;
-}
-
-.text{
-	font-size: 1.3em;
-}
-
-.shadow1 {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-
-.shadow2 {
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-}
-
-.shadow3 {
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
-
-.shadow4 {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
-
-.shadow5 {
-  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-}
-
-.button{
-	border: 2px solid #4D4D4D;
-	border-radius: calc(2em + 1%);
-	padding: 0.75em 2em;
-	width: fit-content;
-	height: 2em;
-	background-color: #00000000;
-	color: #4D4D4D;
-	transition: all 0.2s cubic-bezier(.25,.8,.25,1);
-	display: block;
-}
-
-.button:hover{
-	background-color: #325DC2;
-	color: #EFEFEF;
-	cursor: pointer;
-}
-
-.button img{
-	height: 2.2em;
-	width: auto;
-	float: right;
-}
-
-.button h3{
-	float: left;
-	width: calc(80% - 0.9em);
-	white-space: nowrap;
-	padding-right: 1em;
-	font-size: 1.8em;
-}
-
-/* END GENERAL STYLES */
-
-/* Start Nav Bar */
-
-.navBar{
-	position: fixed;
-	height: 2.5em;
-	width: 100%;
-	padding: 0.5%;
-	background-color: #EFEFEF;
-	z-index: 150;
-}
-
-.hamburger{
-	display: none;
-	float: right;
-	width: 20%;
-}
-
-.hamburger img{
-	cursor: pointer;
-	width: 3em;
-	height: 2.4227em;
-	display: block;
-	margin: auto;
-	margin-top: 1.125em;
-}
-
-.logo{
-	float: left;
-	height: 100%;
-}
-
-.logo img{
-	height: 100%;
-}
-
-.nav{
-	float: left;
-	width: 32em;
-	height: 100%;
-}
-
-.nav li{
-	float: left;
-	width: 33.3333%;
-	text-align: center;
-	height: 100%;
-	padding-top: 0.5em;
-}
-
-.nav a{
-	color: #616161;
-	text-decoration: none;
-	font-size: 1.5em;
-	line-height: 1;
-}
-
-/* End Nav Bar */
-
+/* END TEMP */
 /* Start Right Triangle */
 
 .rightTriangle{
@@ -216,7 +26,6 @@ table {
 }
 
 /* End Right Triangle */
-
 /* Start Hero Section */
 
 .hero:after{
@@ -253,7 +62,6 @@ table {
 }
 
 /* End Hero Section */
-
 /* Start Consulting Section */
 
 .consulting{
@@ -264,7 +72,7 @@ table {
 
 .consultingContainer{
 	width: 45%;
-	margin-left: 10%;
+	padding-left: 10%;
 }
 
 .consulting ul{
@@ -277,112 +85,217 @@ table {
 }
 
 /* End Consulting Section */
+/* Start Custom Solution */
+
+.softwareSolutions{
+	padding: 5% 0;
+	background-image: url("../img/codeBG.png");
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	color: #D6D6D6;
+}
+
+.softwareSolutionsContainer{
+	width: 80%;
+	margin: auto;
+}
+
+/* container */
+.softwareSolutionsContainer ul{
+	margin-top: 2em;
+	height: auto;
+	overflow: hidden;
+	width: 100%;
+	display: table;
+}
+
+/* inner */
+.softwareSolutionSections{
+	color: #D6D6D6;
+	width: 33.3333%;
+	/* float: left; */
+	display: table-cell;
+	position: relative;
+	padding-bottom: 5em;
+}
+
+.softwareSolutionSections .button img{
+	filter: invert(1);
+}
+
+.softwareSolutionSections .button{
+	font-size: 0.75em;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	margin-top: 2em;
+	color: #D6D6D6;
+	border-color: #D6D6D6;
+}
+
+.softwareSolutionSections li{
+	list-style: "- ";
+	margin-left: 3em;
+}
+
+.softwareSolutionSections .subtitle{
+	text-align: center;
+	/* height: 3.3em; */
+	font-size: 1.75em;
+	padding: 0 5%;
+}
+
+.softwareSolutionSections>img{
+	width: 100%;
+}
+
+.customApplications{}
+
+.websites{
+	width: calc(33.3333% - 2px);
+	border-left: #B1B1B1 solid 1px;
+	border-right: #B1B1B1 solid 1px;
+}
+
+.systemsDevelopment{}
+
+.comingSoon{
+	font-size: 0.75em;
+	color: #707070;
+}
+
+.learnMoreButton{}
+
+.howItWorksButton{}
+
+.contactButton{}
+
+/* End Custom Solution */
+/* Begin Porfolio */
+
+.portfolioContainer{
+	padding: 5% 0;
+	width: 80%;
+	margin: auto;
+	overflow: show;
+}
+
+.portfolioGallery{
+	width: 100%;
+	margin: auto;
+	max-width: 60em;
+	overflow: show;
+}
+
+.project{
+	width: 30%;
+	padding: 5%;
+	margin: 5%;
+	float: left;
+	text-decoration: none;
+	display: block;
+	height: 17.5em;
+	transition: all 0.2s cubic-bezier(.25,.8,.25,1);
+}
+
+.project:hover{
+	background-color: #F8F8F8;
+}
+
+.project img{
+	width: 100%;
+}
 
 
+/* End Portfolio */
 /* Begin Responsive Small-Screen */
 
 @media only screen and (max-width: 1110px) {
 	.rightTriangle{
 		z-index: -10;
 	}
+	
 	.consultingContainer{
+		width: 80%;
+	}
+	
+	.softwareSolutionsContainer{
+		width: 80%;
+	}
+	
+	.portfolioContainer{
 		width: 80%;
 	}
 }
 
 /* End Responsive Small-Screen */
-
 /* Begin Responsive Mobile */
 
 @media only screen and (max-width: 855px) {
-	/* START GENERAL STYLES */
-	.subheading{
-		margin-left: 0;
-		margin-bottom: 1em;
-		margin-bottom: 0.5em;
-	}
-	/* END GENERAL STYLES */
-
-	/* Start Nav Bar */
-	.nav{
-		width: 80%;
-	}
-	/* End Nav Bar */
-
-	/* Start Right Triangle */
 	.rightTriangle{
 		display: none;
 	}
-	/* End Right Triangle */
+	
+	.websites{
+		border: 0;
+		border-top: #B1B1B1 solid 1px;
+		border-bottom: #B1B1B1 solid 1px;
+		margin: 5% 0;
+		padding: 5% 0;
+	}
 
-	/* Start Hero Section */
 	.sloganContainer{
 		width: 100%;
 	}
-
-	/* End Hero Section */
-
-	/* Start Consulting Section */
-
-	/* End Consulting Section */
+		
+	.softwareSolutionsContainer ul{
+		padding-bottom: 0;
+	}
+	
+	.softwareSolutionSections ul{
+		margin: 0 auto;
+	}
+	
+	.softwareSolutionSections>img{
+		width: 65%;
+		margin: auto;
+		display: block;
+	}
+	
+	.softwareSolutionSections .button{
+		margin: 0 auto;
+	}
+	
+	.heading{
+		font-size: 2em;
+		margin-bottom: 0.5em;
+	}
+	
+	.softwareSolutionSections{
+		width: 100%;
+		position: initial;
+		display: block;
+		
+	}
+	
+	.softwareSolutionSections .button{
+		position: initial;
+	}
+	
+	.project{
+		width: 100%;
+		margin: 5% auto;
+		height: auto;
+	}
 }
 
 /* End Responsive Mobile */
-
 /* Start Responsive Mobile Menu */
 
 @media only screen and (max-width: 570px) {
-	.nav{
-		background-color: #EFEFEF;
-		padding: 1%;
-		width: 100%;
-	}
-	
-	.logo{
-		width: 60%;
-		height: 5em;
-		margin: auto;
-		background: url(../img/fullLogo.png);
-		background-size: contain;
-		background-position: left;
-		background-repeat: no-repeat;
-		margin: 0 10%;
-		
-		/* Toggle */
-		/* height: 2em; */
-		/* Toggle */
-		/* background: none; */
-	}
-	
-	.hamburger{
-		display: block;
-	}
-	
-	.heroContainer>img{
-		display: none;
-	}
-	
-	.logo img{
-		/* Toggle */
-		display: none;
-	}
-	
-	.navBar{
-		height: fit-content;
-	}
-	
-	.nav li{
-		width: 100%;
-		display: none;
-	}
-	
-	.nav a{
-		/* height: 3em; */
-		padding: 1em 0;
-		width: 100%;
-		display: block;
-	}
-	
 	.heroContainer{
 		margin-top: 5em;
 	}
@@ -390,6 +303,14 @@ table {
 	.consultingContainer{
 		width: 90%;
 		margin: auto;
+	}
+	
+	.softwareSolutionsContainer{
+		width: 90%;
+	}
+	
+	.portfolioContainer{
+		width: 90%;
 	}
 }
 

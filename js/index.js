@@ -6,6 +6,11 @@ $(document).ready(function () {
 	// This inverts the arrow image on hover
 	$(".button").hover(function () {
 		$(this).addClass("buttonHovering shadow3");
+		
+		if ($(".buttonHovering img").css("filter") != "none") { // Fixes if the button is in darkTheme
+			$(this).removeClass("buttonHovering shadow3");
+		}
+		
 		$(".buttonHovering img").css("filter", "invert(1)");
 
 	}, function () {
@@ -16,7 +21,13 @@ $(document).ready(function () {
 	// Hamburger menu hover
 	$(".hamburger img").click(function () {
 		$(".nav li").toggle();
-		// $(".nav li").slideToggle(1000, "swing");
+	});
+	
+	// Project hover
+	$(".project").hover(function () {
+		$(this).addClass("shadow3");
+	}, function(){
+			$(this).removeClass("shadow3");
 	});
 });
 
