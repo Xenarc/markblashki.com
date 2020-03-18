@@ -56,25 +56,25 @@
 	</div>
 	<div class="consulting">
 		<div class="consultingContainer container">
-			<div class="heading fadeAsScroll">
+			<div class="heading">
 				<span><img src="img/headingMarker.png" alt=""></span><h1 class="">Consulting</h1>
 			</div>
-			<p class="text fadeAsScroll">Delivering quality advice on many different subjects to boost your business' performance.</p>
+			<p class="text">Delivering quality advice on many different subjects to boost your business' performance.</p>
 			<ul>
 				<li>
-					<p class="text fadeAsScroll">Integrating technology with business</p>
+					<p class="text">Integrating technology with business</p>
 				</li>
 				<li>
-					<p class="text fadeAsScroll">Systems migration</p>
+					<p class="text">Systems migration</p>
 				</li>
 				<li>
-					<p class="text fadeAsScroll">Technology implementation</p>
+					<p class="text">Technology implementation</p>
 				</li>
 				<li>
-					<p class="text fadeAsScroll">Machine learning</p>
+					<p class="text">Machine learning</p>
 				</li>
 				<li>
-					<p class="text fadeAsScroll">Systems restructuring</p>
+					<p class="text">Systems restructuring</p>
 				</li>
 			</ul>
 			<a href="Portfolio" class="button shadow1">
@@ -85,7 +85,7 @@
 	</div>
 	<div class="softwareSolutions">
 		<div class="softwareSolutionsContainer container">
-			<div class="heading darkTheme fadeAsScroll">
+			<div class="heading darkTheme">
 				<span><img src="img/headingMarker.png" alt=""></span><h1 class="">Design. Develop. Deploy.</h1>
 			</div>
 			<p class="text darkTheme">Tailored solutions to suit your business. No matter the size.</p>
@@ -161,26 +161,26 @@
 	</div>
 	<div class="portfolio">
 		<div class="portfolioContainer container">
-			<div class="heading fadeAsScroll">
+			<div class="heading">
 				<span><img src="img/headingMarker.png" alt=""></span><h1 class="">Portfolio</h1>
 			</div>
 			<div class="portfolioGallery">
-				<a class = "project shadow2 fadeAsScroll" href="http://markblashki.com/portfolio/academix/">
+				<a class = "project shadow2" href="http://markblashki.com/portfolio/academix/">
 					<img src="./img/AcademixHero.PNG" alt="Academix Website" class="shadow1">
 					<h3 class="subtitle">Academix</h3>
 					<p class="text">An online learning platform for high school students</p>
 				</a>
-				<a class = "project shadow2 fadeAsScroll" href="http://markblashki.com/portfolio/milliesgarden/">
+				<a class = "project shadow2" href="http://markblashki.com/portfolio/milliesgarden/">
 					<img src="./img/MilliesGardenHero.PNG" alt="Millies Garden Website" class="shadow1">
 					<h3 class="subtitle">Millies Garden</h3>
 					<p class="text">A plant gallery and order page for succulent arrangement</p>
 				</a>
-				<a class = "project shadow2 fadeAsScroll hidden" href="markblashki.com/portfolio/">
+				<a class = "project shadow2 hidden" href="markblashki.com/portfolio/">
 					<img src="./img/.jpg" alt=" Website" class="shadow1">
 					<h3 class="subtitle"></h3>
 					<p class="text"></p>
 				</a>
-				<a class = "project shadow2 fadeAsScroll hidden" href="markblashki.com/portfolio/">
+				<a class = "project shadow2 hidden" href="markblashki.com/portfolio/">
 					<img src="./img/.jpg" alt=" Website" class="shadow1">
 					<h3 class="subtitle"></h3>
 					<p class="text"></p>
