@@ -31,7 +31,9 @@
 <body onload="Resize()">
 	<div class="navBar shadow2">
 		<div class="logo">
-			<img src="img/logo.png" alt="Mark Blashki Solutions Logo">
+			<a href="index.php">
+				<img src="img/logo.png" alt="Mark Blashki Solutions Logo">
+			</a>
 		</div>
 		<div class="hamburger">
 			<img src="img/hamburgerBlue.png" alt="Menu">
@@ -157,7 +159,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="contact" id="contact">
+	<footer class="contact" id="contact">
 		<div class="contactContainer container">
 		<p class="text darkTheme">For more details on how Mark Blashki Solutions can help your business or for general enquiries call or email at:</p>
 		<div class="contactDetailsContainer">
@@ -174,6 +176,6 @@
 				<h3 class="subtitle darkTheme"></h3>
 			</div>
 		</div>
-	</section>
+	</footer>
 </body>
 </html>
