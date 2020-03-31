@@ -53,52 +53,42 @@ table {
 	color: #4D4D4D;
 	padding: 0.25em 0;
 }
-
 .heading{
 	margin-left: -1.807769em;
 	font-size: 2.5em;
 }
-
 .heading span{
 	float: left;
 }
-
 .heading img{
 	height: 2em;
 	margin-top: -0.5em;
 }
-
 .subheading{
 	font-size: 2.5em;
 }
-
 .subtitle{
 	font-size: 1.65em;
 	font-style: italic;
 }
-
 .smallSubHeading{
 	font-size: 1.5em;
 }
-
 .text{
 	font-size: 1.3em;
 }
-
 .container{
 	padding: 5% 0;
 	width: 80%;
 	margin: auto;
 	clear: both;
 }
-
 /* Dark Styles */
 
 .darkTheme{
 	color: #D6D6D6;
 	border-color: #D6D6D6;
 }
-
 .darkTheme h3{
 	color: #D6D6D6;
 }
@@ -107,27 +97,21 @@ table {
 .shadow1 {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
-
 .shadow2 {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
-
 .shadow3 {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
-
 .shadow4 {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
-
 .shadow5 {
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
-
 .hidden{
 	display: none!important;
 }
-
 .button{
 	border: 2px solid #4D4D4D;
 	color: #4D4D4D;
@@ -139,19 +123,25 @@ table {
 	transition: all 0.2s cubic-bezier(.25,.8,.25,1);
 	display: block;
 }
-
+.button.darkTheme{
+	border: 2px solid #D6D6D6;	
+}
+.mt1p{
+	margin-top: 1%;
+}
+.button.darkTheme img{
+	filter: invert(1);
+}
 .button:hover{
 	background-color: #325DC2;
 	color: #EFEFEF;
 	cursor: pointer;
 }
-
 .button img{
 	height: 2.2em;
 	width: auto;
 	float: right;
 }
-
 .button h3{
 	float: left;
 	width: calc(80% - 0.9em);
@@ -159,10 +149,9 @@ table {
 	padding-right: 1em;
 	font-size: 1.8em;
 }
-
 /* END GENERAL STYLES */
-/* Start Nav Bar */
 
+/* Start Nav Bar */
 .navBar{
 	position: fixed;
 	height: 2.5em;
@@ -171,13 +160,11 @@ table {
 	background-color: #EFEFEF;
 	z-index: 150;
 }
-
 .hamburger{
 	display: none;
 	float: right;
 	width: 20%;
 }
-
 .hamburger img{
 	cursor: pointer;
 	width: 3em;
@@ -186,22 +173,24 @@ table {
 	margin: auto;
 	margin-top: 1.125em;
 }
-
 .logo{
 	float: left;
 	height: 100%;
+	float: right;
 }
-
 .logo img{
 	height: 100%;
 }
-
+.login{
+	background-color: red;
+	width: 10%;
+	height: 10%;
+}
 .nav{
 	float: left;
 	width: 32em;
 	height: 100%;
 }
-
 .nav li{
 	float: left;
 	width: 33.3333%;
@@ -209,18 +198,15 @@ table {
 	height: 100%;
 	padding-top: 0.5em;
 }
-
 .nav a{
 	color: #616161;
 	text-decoration: none;
 	font-size: 1.5em;
 	line-height: 1;
 }
-
 /* End Nav Bar */
 
 /* Begin Responsive Mobile */
-
 @media only screen and (max-width: 855px) {
 	.subheading{
 		margin-left: 0;
@@ -231,29 +217,23 @@ table {
 		width: 80%;
 	}
 }
-
 /* End Responsive Mobile */
 
 /* Start Responsive Mobile Menu */
-
 @media only screen and (max-width: 580px) {
 	/* Not responsive menu but important for containers */
-	
-	.container{
+		.container{
 		width: 90%;
 	}
-	
-	.heading{
+		.heading{
 		margin-left: 0;
 	}
-	
-	.nav{
+		.nav{
 		background-color: #EFEFEF;
 		padding: 1%;
 		width: 100%;
 	}
-	
-	.logo{
+		.logo{
 		width: 60%;
 		height: 5em;
 		margin: auto;
@@ -263,29 +243,23 @@ table {
 		background-repeat: no-repeat;
 		margin: 0 10%;
 	}
-	
-	.hamburger{
+		.hamburger{
 		display: block;
 	}
-	
-	.heroContainer>img{
+		.heroContainer>img{
 		display: none;
 	}
-	
-	.logo img{
+		.logo img{
 		display: none;
 	}
-	
-	.navBar{
+		.navBar{
 		height: fit-content;
 	}
-	
-	.nav li{
+		.nav li{
 		width: 100%;
 		display: none;
 	}
-	
-	.nav a{
+		.nav a{
 		padding: 1em 0;
 		width: 100%;
 		display: block;

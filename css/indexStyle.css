@@ -1,12 +1,10 @@
 /* TEMP */
-
 body{
 	height: 300vh;
 }
-
 /* END TEMP */
-/* Start Right Triangle */
 
+/* Start Right Triangle */
 .rightTriangle{
 	position: absolute;
 	top: 100px;
@@ -20,37 +18,31 @@ body{
 	background: url("../img/rightTriangle.png");
 	background-size: cover;
 }
-
 .rightTriangle img{
 	height: 100%;
 }
-
 /* End Right Triangle */
-/* Start Hero Section */
 
+/* Start Hero Section */
 .hero:after{
 	clear: both;
 	content: "";
 	display: block;
 }
-
 .heroContainer{
 	padding: 10% 0;
 	margin-left: 10%;
 	height: 50%;
 	float: left;
 }
-
 .heroContainer>img{
 	width: 80%;
 	max-width: 880px;
 }
-
 .sloganContainer{
 	width: 70%;
 	float: left;
 }
-
 .buttonContainer{
 	float: left;
 	width: fit-content;
@@ -59,34 +51,29 @@ body{
 .heroText{
 	width: 90%;
 }
-
 /* End Hero Section */
-/* Start Consulting Section */
 
+/* Start Consulting Section */
 .consulting{
 	clear: both;
 	background-color: #E8EEF5;
 	padding: 5% 0;
 }
-
 .consultingContainer{
 	width: 45%;
 	margin: 0;
 	padding-left: 10%;
 }
-
 .consulting ul{
 	list-style: "- ";
 	margin-left: 1em;
 }
-
 .consulting .button{
 	margin-top: 1em;
 }
-
 /* End Consulting Section */
-/* Start Custom Solution */
 
+/* Start Custom Solution */
 .softwareSolutions{
 	padding: 5% 0;
 	background-image: url("../img/codeBG.png");
@@ -95,10 +82,6 @@ body{
 	background-size: cover;
 	color: #D6D6D6;
 }
-
-.softwareSolutionsContainer{
-}
-
 .softwareSolutionsContainer ul{
 	margin-top: 2em;
 	height: auto;
@@ -106,7 +89,6 @@ body{
 	width: 100%;
 	display: table;
 }
-
 .softwareSolutionSections{
 	color: #D6D6D6;
 	width: 33.3333%;
@@ -115,11 +97,9 @@ body{
 	position: relative;
 	padding-bottom: 5em;
 }
-
 .softwareSolutionSections .button img{
 	filter: invert(1);
 }
-
 .softwareSolutionSections .button{
 	font-size: 0.75em;
 	position: absolute;
@@ -131,57 +111,43 @@ body{
 	color: #D6D6D6;
 	border-color: #D6D6D6;
 }
-
 .softwareSolutionSections li{
 	list-style: "- ";
 	margin-left: 3em;
 }
-
 .softwareSolutionSections .subtitle{
 	text-align: center;
 	/* height: 3.3em; */
 	font-size: 1.75em;
 	padding: 0 5%;
 }
-
 .softwareSolutionSections>img{
 	width: 100%;
 }
-
-.customApplications{}
-
 .websites{
 	width: calc(33.3333% - 2px);
 	border-left: #B1B1B1 solid 1px;
 	border-right: #B1B1B1 solid 1px;
 }
-
-.systemsDevelopment{}
-
 .comingSoon{
 	font-size: 0.75em;
 	color: #707070;
 }
-
-.learnMoreButton{}
-
-.howItWorksButton{}
-
-.contactButton{}
-
+.howItWorksButton{
+	color: #D6D6D6;
+	margin: auto;
+}
 /* End Custom Solution */
-/* Begin Porfolio */
 
+/* Begin Porfolio */
 .portfolioContainer{
 }
-
 .portfolioGallery{
 	width: 100%;
 	margin: auto;
 	max-width: 60em;
 	overflow: visible;
 }
-
 .project{
 	width: 30%;
 	padding: 5%;
@@ -192,33 +158,26 @@ body{
 	height: 17.5em;
 	transition: all 0.2s cubic-bezier(.25,.8,.25,1);
 }
-
 .project:hover{
 	background-color: #F8F8F8;
 }
-
 .project img{
 	width: 100%;
 }
-
 /* End Portfolio */
+
 /* Begin Contact */
-
-
 .contact{
 	background-color: #325DC2;
 	clear: both;
 }
-
 .contact .text{
 	text-align: center;
 }
-
 .contactContainer{
 	overflow: auto;
 	padding: 2.5%;
 }
-
 .contactDetailsContainer{
 	padding-top: 2.5%;
 	display: flex;
@@ -226,7 +185,6 @@ body{
 	align-items: center;
 	justify-content: center;
 }
-
 .contactLine{
 	flex: 1 0 auto;
 	overflow: hidden;
@@ -235,84 +193,72 @@ body{
 	align-items: center;
 	justify-content: center;
 }
-
 .contactLine h3{
 	font-size: 1.5em;
 	flex: 1 0 1;
 }
-
 .contactLine img{
 	height: 2.5em;
 	float: left;
 	flex: 0 0 0;
 }
-
 .contactLine a{
 	color: #D6D6D6;
 	white-space: nowrap;
 	display: inline-block;
 }
-
 /* End Contact */
-/* Begin Responsive Small-Screen */
 
+/* Begin Responsive Small-Screen */
 @media only screen and (max-width: 1110px) {
 	.rightTriangle{
 		z-index: -10;
 	}
-	
-	.consultingContainer{
+		.consultingContainer{
 		width: 80%;
 	}
-	
-	.project{
+		.project{
 		width: 35%;
 		margin: 5% 2.5%;
 	}
 }
-
 /* End Responsive Small-Screen */
-/* Begin Responsive Mobile */
 
+/* Begin Responsive Mobile */
 @media only screen and (max-width: 855px) {
-	.heading{
+	.mt1p{
+		visibility: hidden;
+	}
+		.heading{
 		font-size: 2em;
 		margin-bottom: 0.5em;
 	}
-	
-	.rightTriangle{
+		.rightTriangle{
 		display: none;
 	}
-
 	.sloganContainer{
 		width: 100%;
 	}
-		
 	.softwareSolutionsContainer ul{
 		padding-bottom: 0;
 	}
-	
 	.softwareSolutionSections ul{
 		margin: 0 auto;
 	}
-	
 	.softwareSolutionSections>img{
 		width: 65%;
 		margin: auto;
 		display: block;
 	}
-	
 	.softwareSolutionSections .button{
 		margin: 0 auto;
 	}
-		
-	.softwareSolutionSections{
+		.softwareSolutionSections{
 		width: 100%;
 		position: initial;
 		display: block;
 		padding-bottom: 0;
 	}
-	
 	.websites{
 		border: 0;
 		border-top: #B1B1B1 solid 1px;
@@ -320,38 +266,31 @@ body{
 		margin: 5% 0;
 		padding: 5% 0;
 	}
-	
 	.softwareSolutionSections .button{
 		position: initial;
 	}
-	
 	.project{
 		width: 90%;
 		margin: 5% auto;
 		height: auto;
 	}
-	
 	.contactLine{
 		width: 100%;
 	}
 }
-
 /* End Responsive Mobile */
-/* Start Responsive Mobile Menu */
 
+/* Start Responsive Mobile Menu */
 @media only screen and (max-width: 580px) {
 	.heroContainer{
 		margin-top: 5em;
 	}
-	
 	.contactLine h3{
 		font-size: 1em;
 	}
-	
 	.contactLine img{
 		height: 1.5em;
 		margin-top: 0.125em;
 	}
 }
-
 /* End Responsive Mobile Menu */
