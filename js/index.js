@@ -21,6 +21,7 @@ $(document).ready(function () {
 	// Hamburger menu hover
 	$(".hamburger img").click(function () {
 		$(".nav li").toggle();
+		$(".login").toggle();
 	});
 	
 	// Project hover

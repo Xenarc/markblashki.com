@@ -2,10 +2,16 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-  <meta name="description" content="Mark Blashki Solutions offers a range of website design and development services as well as mobile app programming and consulting.">
-  <meta name="keywords" content="Programmer, Developer, mobile, app, IT, solutions, applications, systems, consulting">
-  <meta name="author" content="Mark Blashki">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Mark Blashki Solutions offers a range of website design and development services as well as mobile app programming and consulting.">
+	<meta name="keywords" content="Programmer, Developer, mobile, app, IT, solutions, applications, systems, consulting">
+	<meta name="author" content="Mark Blashki">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 	<title>Mark Blashki Solutions | Technology Consulting and Software Solutions</title>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
 	<script src="js/index.js"></script>
@@ -37,6 +43,12 @@
 				<li><a href="#portfolio">Portfolio</a></li>
 			</ul>
 		</nav>
+		<div class="login">
+			<a href="login.php" class="loginButton">
+				<img src="./img/login.png", alt="Login Button">
+				<h3 class="smallSubHeading">&nbsp Login</h3>
+			</a>
+		</div>
 	</div>
 	<div class="rightTriangle"></div>
 	<section class="hero">

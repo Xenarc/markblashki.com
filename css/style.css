@@ -176,15 +176,10 @@ table {
 .logo{
 	float: left;
 	height: 100%;
-	float: right;
 }
 .logo img{
 	height: 100%;
-}
-.login{
-	background-color: red;
-	width: 10%;
-	height: 10%;
+	float: left;
 }
 .nav{
 	float: left;
@@ -204,6 +199,23 @@ table {
 	font-size: 1.5em;
 	line-height: 1;
 }
+.login{
+	float: right;
+	padding: 0 1%;
+}
+.loginButton{
+	width: 7em;
+	display: flex;
+	margin: auto;
+	text-decoration: none;
+}
+.login img{
+	width: 2.4227em;
+	height: 2.4227em;
+}
+.login h3{
+	float: right;
+}
 /* End Nav Bar */
 
 /* Begin Responsive Mobile */
@@ -214,7 +226,17 @@ table {
 		margin-bottom: 0.5em;
 	}
 	.nav{
-		width: 80%;
+		width: 70%;
+	}
+	.nav a{
+		font-size: 1.25em;
+	}
+	.login{
+		width: 3em;
+		padding: 0;
+	}
+	.login h3{
+		visibility: hidden;
 	}
 }
 /* End Responsive Mobile */
@@ -263,6 +285,14 @@ table {
 		padding: 1em 0;
 		width: 100%;
 		display: block;
+	}
+	.login{
+		width: 100%;
+		display: none;
+		padding: 1% 0;
+	}
+	.login h3{
+		visibility: visible;
 	}
 }
 /* End Responsive Mobile Menu */
